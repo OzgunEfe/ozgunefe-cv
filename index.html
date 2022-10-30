@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozgun Efe CV</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1 class="header-name" >Ozgun Efe</h1>
+            <nav>
+                <div class="profile">
+                    <!-- Profile Img-->
+                    <img src="./images/profile-photo.jpeg" alt="Profile Photo" class="profile-image">
+                    <!-- Bio -->
+                    <p class="profile-text">Hi, my name is Ozgun Efe and I'm a junior Front-End Developer. Welcome to my personal website!</p>
+                    <!-- Social Media Icons-->
+                    <ul class="social-media-icons">
+                        <li>
+                            <a href="https://github.com/OzgunEfe" target="_blank">
+                                <img class="icons" src="./images/github.png" alt="GitHub icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/ozgun-efe/" target="_blank">
+                                <img class="icons" src="./images/linkedin.png" alt="Linkedin icon">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/zgnEfe" target="_blank">
+                                <img class="icons" src="./images/twitter.png" alt="Twitter icon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- I dont know why but hr tag didn't work here, because of this I create this div-->
+                <div class="border">
+                    <p></p>
+                </div>
+                <!-- About Me & Portfolio & Contact-->
+                <div class="aboutme-sections">
+                    <a href="#about-me-section">
+                        <img class="icons" src="./images/user.svg" alt="user icon">About Me
+                    </a>
+                    <a href="#portfolio-section">
+                        <img class="icons" src="./images/laptop.png" alt="portfolio icon">Portfolio
+                    </a>
+                    <a href="#contact-section">
+                        <img class="icons" src="./images/mail.png" alt="contact icon">Contact
+                    </a>
+                </div>
+                <div class="border">
+                    <p></p>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-me-section" class="about-me">
+            <div class="about-me-text">
+                <h1>Ozgun Efe</h1>
+                <h3>Junior Front-End Developer</h3>
+                <p>I'm a junior Front-End developer. Want to know how I may help with your project? Check out my portfolio.</p>
+                <a href="#portfolio-section">View Portfolio</a>
+                <a href="#contact-section">Get Contact</a>
+            </div>
+            <div class="about-me-pic">
+                <img src="./images/profile-photo.png" alt="profile photo">
+            </div>
+        </section>
+
+        <section id="portfolio-section" class="portfolio">
+            <div class="portfolio-text-header">
+                <h1>Portfolio</h1>
+            </div>
+            <div class="project-1">
+                <div class="project-img">
+                    <img src="./images/furniture.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h5>Furniture Store</h5>
+                    <p>I coded a furniture shop website using the CSS Grid system.</p>
+                    <a href="https://ozgunefe.github.io/Furniture-Store/" target="_blank">View website</a>
+                </div>
+            </div>
+            <div class="project-2">
+                <div class="project-img">
+                    <img src="./images/JakesEatery.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h5>Jakes Eatery</h5>
+                    <p>I coded a restaurant website using the CSS flexbox properties.</p>
+                    <a href="https://ozgunefe.github.io/MyProjects/Jakes-Eatery-Website/" target="_blank">View website</a>
+                </div>
+            </div>
+            <div class="project-3">
+                <div class="project-img">
+                    <img src="./images/AsianKitchen.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h5>Asian Kitchen's Menu</h5>
+                    <p>I coded a restaurant website using HTML, CSS and JavaScript.</p>
+                    <a href="https://ozgunefe.github.io/asian-kitchens-menu/" target="_blank">View website</a>
+                </div>
+            </div>
+            <div class="project-4">
+                <div class="project-img">
+                    <img src="./images/jammming.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h5>Jammming</h5>
+                    <p>I built a React web application called Jammming. I used the Spotify API and React to build this website.</p>
+                    <a href="http://ozgun-jamming.surge.sh/" target="_blank">View website</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="contact">
+            <form action="">
+                <h3>Get In Touch</h3>
+                <div class="inputs">
+                    <input type="text" id="c-name" placeholder="Name">
+                    <input type="text" id="c-email" placeholder="Email">
+                </div>
+                <div>
+                    <label for=""></label>
+                    <textarea name="" id="" cols="60" rows="15" placeholder="Enter your message"></textarea>
+                </div>
+                <div>
+                    <button>Send Now</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contact-info">
+            <p><strong>Phone number: </strong>+4411111111111</p>
+            <p><strong>Email: </strong>ozgunefe@gmail.com</p>
+            <p class="location-info"><strong>Location: </strong>London</p>
+        </div>
+        <div class="copy-right">
+            &copy; 2022 Ozgun EFE
+        </div>
+    </footer>
+</body>
+</html>
